@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(121, 136, 250);
+}
+
+header {
+  margin-top: 1px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 20px solid rgb(157, 209, 157);
+  border-top: 20px solid rgb(157, 209, 157);
+  background: rgb(108, 177, 245);
+}
+
+h1 {
+  font-size: 48px;
+  font-family: "Caveat", cursive;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+.img-logo {
+  height: 70px;
+  margin-right: 16px;
+}
+
+.btn-header {
+  margin: 18px;
+  padding: 0 15px;
+  cursor: pointer;
+  height: 30px;
+  font-size: 14px;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  border-radius: 12px;
+  background-color: rgb(51, 161, 51);
+}
+
+.btn-header:hover {
+  background-color: green;
+}
+
+#form-geral {
+  margin-top: 30px;
+  display: none;
+  justify-content: center;
+}
+
+#form-geral label {
+  margin: 5px;
+  font-size: 26px;
+  text-shadow: 1px 1px #000;
+  color: #fff;
+}
+
+#form-geral input,
+button {
+  height: 30px;
+  margin: 5px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: rgb(218, 215, 215);
+}
+
+#form-geral button {
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+#form-geral button:hover {
+  background-color: rgb(133, 133, 133);
+}
+
+table {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+thead th {
+  font-size: 22px;
+  padding: 20px;
+}
+
+tbody td {
+  padding: 20px;
+}
+tfoot td {
+  padding: 20px;
+  font-weight: bold;
+}
